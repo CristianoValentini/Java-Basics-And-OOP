@@ -2,7 +2,9 @@ package javabasics._3;
 
 public class Main {
     public static void main(String[] args) {
-
+        exercise1();
+        exercise2();
+        exercise3();
     }
 
     /**
@@ -12,8 +14,8 @@ public class Main {
     private static void exercise1() {
         System.out.println("Exercise 1:");
         // Write your code here
-        int myAge = 18 ;
-        System.out.println("My age is " + myAge) ;
+        int age = 18 ;
+        System.out.println("My age : " + age);
     }
 
     /**
@@ -26,9 +28,9 @@ public class Main {
     private static void exercise2() {
         System.out.println("\nExercise 2:");
         //Write your code here
-        char firstNameInitial = 'c' ;
+        char firstNameInitial = 'C' ;
         int myAge = 18 ;
-        System.out.println("My age" + myAge + "My Initial" + firstNameInitial) ;
+        System.out.println("My age= " + myAge  + "  My Initial= " + firstNameInitial);
     }
 
     /**
@@ -36,11 +38,11 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        // sta creando una varianbile booleana con esito false
+        // Creiamo una variabile booleana per chiederci se il soggetto ha mangiato.
         boolean hasEatenLunch = false;
-        // sta impostando il prezzo del pranzo con un double
+        // Creiamo una double, dove andiamo ad impostare il costo del pranzo.
         double lunchCost = 5.99;
-        // sta stampando in console il prezzo del pranzo e se il soggetto in questione ha mangiato
+        // In console andiamo a compiere due stampe, la prima andiamo a stampare il costo del pranzo, nella seconda andiamo a stampare se è vero o meno che il soggetto abbia pranzato
         System.out.println("Lunch cost=" + lunchCost);
         System.out.println("Has Eaten lunch=" + hasEatenLunch);
     }

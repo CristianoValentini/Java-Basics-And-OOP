@@ -1,4 +1,4 @@
-package javabasics.Exercise5;
+package javabasics._Exercise5;
 
 public class Main {
     // Don't forget to use comments to clear things up if you need them!

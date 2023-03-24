@@ -1,5 +1,5 @@
 
-package javabasics.RubricaExercise.models;
+package javaoop.RubricaExercise.models;
 
 import java.util.ArrayList;
 import java.util.List;

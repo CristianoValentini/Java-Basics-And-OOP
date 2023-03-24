@@ -1,11 +1,11 @@
-package javabasics.RubricaExercise;
+package javaoop.RubricaExercise;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import javabasics.RubricaExercise.models.Contatto;
-import javabasics.RubricaExercise.models.Indirizzo;
+import javaoop.RubricaExercise.models.Contatto;
+import javaoop.RubricaExercise.models.Indirizzo;
 
 public class Rubrica {
     public static void main(String[] args) {
